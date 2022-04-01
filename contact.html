@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <h3>My Contact details</h3>
+    <p> email: trungnguyenb0k30@gmail.com</p>
+    <p> tel: 0912345678</p>
+
+
+    <form action="mailto:trungnguyenb0k30@gmail.com" method="post" enctype="text/plain">
+      <label for="fname">Firstname (4 to 8 characters): </label>
+      <input type="text" id ="fname" name="fname" value="" required
+       minlength="4" maxlength="8" size="10"> <br></br>
+      <label for="lname"> Lastname </label>
+      <input type="text" id ="lname" name="lname" value=""> <br></br>
+      <label> Birthday: </label>
+      <input type="date" id ="birthday" name="birthday" value="" placeholder="enter your d.o.b"> <br></br>
+      <label> Email </label>
+      <input type="email" name="email" value="" placeholder="@gmail.com"> <br></br>
+      <label for="favoriteColor">Favorte Color: </label>
+      <input type="color" name="favoriteColor" value=""> <br></br>
+
+      <label for="password"> Password: </label>
+      <input type="password" id ="password" name="password" value="password" inlength="4"
+       maxlength="8" size="8" required><br></br>
+
+      <input type="file" name="file" value=""> <br>
+      <label for="">Do you want to sign up for newsletter</label> <input type="checkbox" name="" value=""> <br> <br>
+
+      <label for="message"> Your Message: </label> <br>
+      <textarea id ="message" name="YourMessage" rows="10" cols="30"></textarea>
+      <input type="submit" name="submit" value="submit">
+    </form>
+  </body>
+</html>
